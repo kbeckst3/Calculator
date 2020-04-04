@@ -79,9 +79,7 @@ public class Controller {
     }
 
     private void getPlusMinusNumber() {
-        if(output.toString().contains("-")){
-            output.setText(output.getText().replace("-", ""));
-        }else{
+        if(output.toString().contains("-"))hub else{
             output.setText("-" + output.getText());
         }
     }
